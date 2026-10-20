@@ -31,4 +31,4 @@ npm install
 node app.js
 ```
 
-The app runs on `http://localhost:3000`.
+The app runs on `http://localhost:3000`

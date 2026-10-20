@@ -70,7 +70,7 @@ router.get('/download/:id', (req, res) => {
         if (err || !file) return res.status(404).send('File not found');
 
         const filePath = path.join(__dirname, '../uploads', file.filepath);
-        res.download(filePath, file.filename); // original filename
+        res.download(filePath, file.filename);
     });
 });
 
